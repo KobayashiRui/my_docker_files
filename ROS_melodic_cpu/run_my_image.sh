@@ -6,6 +6,6 @@ docker run -it \
     --volume="/tmp/.X11-unix:/tmp/.X11-unix" \
     --device=/dev/dri:/dev/dri \
     --privileged \
-    -v /home/kr/git/ROS_practice/ROS_data/:/ros_ws/src \
-    ros_melodic \
+    -v /home/megumin/git/ROS_practice/ROS_data/:/ros_ws/src \
+    melodic \
     bash
