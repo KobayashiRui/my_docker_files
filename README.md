@@ -1,5 +1,14 @@
 # Dockerのファイルをまとめる
 
+## Dockerのインストール
+https://docs.docker.com/install/
+
+## nvidia-docker2のインストール
+https://github.com/NVIDIA/nvidia-docker#quickstart
+### 注意
+自分のPCにインストールされているCUDAのバージョンより高いバージョンのCUDAを
+Dockerにて利用することはできないので注意
+
 ## ファイルについて
 + Docker_tutorial : Dockerの入門 & Dokcerについてのまとめ
 + Doc_Datascience : Jupyterの基本環境やRの使用ができる & Jupyterの改造
