@@ -1,4 +1,3 @@
-
 FROM osrf/ros2:nightly
 
 #nvidia-docker2 setting
