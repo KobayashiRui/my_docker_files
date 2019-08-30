@@ -1,1 +1,1 @@
-docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e NVIDIA_DRIVER_CAPABILITIES=utility,compute -e RESOLUTION=1920x1080 -p 6080:80 -p 5901:5900 -p 2222:22 -v /dev/shm:/dev/shm dorowu/ubuntu-desktop-lxde-vnc
+docker run --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=0 -e NVIDIA_DRIVER_CAPABILITIES=utility,compute -e RESOLUTION=1920x1080 -e USER=kr -e PASSWORD=rui0802 -p 6080:80 -p 5901:5900 -p 2222:22 -v /dev/shm:/dev/shm -v /home/kr/DockerData:/home/kr/DockerData  dorowu/ubuntu-desktop-lxde-vnc
